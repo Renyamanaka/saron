@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+.Header{
+  width:100vw;
+  height:90px;
+  background-color:#2f3e51;
+  color:#ffffff;
+  .Header-logo{
+    font-size:20px;
+    padding:30px 90px;
+  }
+}
+
+.Contents{
+  height: calc(100vh - 90px - 20px);
+  width:900px;
+  margin: 0 auto;
+  background-color: #fafafa;
+  .Contents__name{
+    text-align:center;
+    padding:60px 0 0 0;
+    .Contents__other{
+      .Contents__edit{
+        display: inline-block;
+        text-decoration: none;
+        color: #FFF;
+        width: 120px;
+        height: 120px;
+        line-height: 120px;
+        border-radius: 50%;
+        text-align: center;
+        overflow: hidden;
+        background-image: linear-gradient(45deg, #709dff 0%, #91fdb7 100%);
+        transition: .4s;
+      }
+    }
+    .Contents__sns{
+      .btn-social-long-twitter{
+        color: #FFF;/*文字・アイコン色*/
+        border-radius: 7px;/*角丸に*/
+        display: inline-block;
+        height: 50px;/*高さ*/
+        width: 190px;/*幅*/
+        text-align: center;/*中身を中央寄せ*/
+        font-size: 25px;/*文字のサイズ*/
+        line-height: 50px;/*高さと合わせる*/
+        background: #1da1f3;
+        overflow: hidden;/*はみ出た部分を隠す*/
+        text-decoration:none;/*下線は消す*/
+      }
+      .btn-social-long-insta{
+        color: #FFF;/*文字・アイコン色*/
+        border-radius: 7px;/*角丸に*/
+        position: relative;
+        display: inline-block;
+        height: 50px;/*高さ*/
+        width: 190px;/*幅*/
+        text-align: center;/*中身を中央寄せ*/
+        font-size: 25px;/*文字のサイズ*/
+        line-height: 50px;/*高さと合わせる*/
+        background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
+        overflow: hidden;/*はみ出た部分を隠す*/
+        text-decoration:none;/*下線は消す*/
+      }
+    }
+  }
+}
