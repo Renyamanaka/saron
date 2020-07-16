@@ -16,7 +16,7 @@
     .Contents__other
       = link_to "#", class: "Contents__edit" do
         プロフィール
-      = link_to "#", class: "Contents__edit" do
+      = link_to "/messages/new", class: "Contents__edit" do
         投稿する
       = link_to "#", class: "Contents__edit" do
         カテゴリー検索
@@ -31,4 +31,5 @@
     自己紹介
   .Murmuring
     日記・思い
-    
+    - @messages.each do |message|
+      = message.memo
