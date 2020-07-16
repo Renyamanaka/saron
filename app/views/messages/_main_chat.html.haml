@@ -1,9 +1,18 @@
 .Header
   .Header-logo
-    Make a history
+    .Heder-name
+      「Make a history」
+    .Header_rog
+      = link_to "#" do
+        ログアウト
+    
+      
 .Contents
   .Contents__name
-    山中蓮
+    .Contents__list
+      = image_tag "IMG_8568", size: "200x200", alt: "test", class:"Contents_image"
+      .Cont__name
+        山中蓮
     .Contents__other
       = link_to "#", class: "Contents__edit" do
         プロフィール
@@ -22,3 +31,4 @@
     自己紹介
   .Murmuring
     日記・思い
+    
