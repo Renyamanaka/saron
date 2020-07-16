@@ -1,0 +1,34 @@
+.Header
+  .Header-logo
+    .Heder-name
+      「Make a history」
+    .Header_rog
+      = link_to "#" do
+        ログアウト
+    
+      
+.Contents
+  .Contents__name
+    .Contents__list
+      = image_tag "IMG_8568", size: "200x200", alt: "test", class:"Contents_image"
+      .Cont__name
+        山中蓮
+    .Contents__other
+      = link_to "#", class: "Contents__edit" do
+        プロフィール
+      = link_to "#", class: "Contents__edit" do
+        投稿する
+      = link_to "#", class: "Contents__edit" do
+        カテゴリー検索
+    .Contents__sns
+      = link_to "#", class: "btn-social-long-twitter" do
+        = icon('fab', 'twitter')
+        Twitter
+      = link_to "#", class: "btn-social-long-insta" do
+        = icon('fab', 'instagram')
+        Instagram
+  .Self-introduction
+    自己紹介
+  .Murmuring
+    日記・思い
+    

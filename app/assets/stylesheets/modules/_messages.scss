@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+.Header{
+  background-color:#2f3e51;
+  height:100px;
+  padding:0 300px;
+  display:flex;
+  align-items:center;
+  color:#fff;
+  .Header-logo{
+    height:100px;
+    width:1000px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    .Heder-name{
+      font-size:20px;
+      font-weight:bold;
+    }
+    .Header_rog{
+      text-decoration: none;
+      display: inline-block;
+      padding: 0.5em 1em;
+      border-radius: 4px;
+      color: #ffffff;
+      background-image: linear-gradient(#6795fd 0%, #67ceff 100%);
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+      border-bottom: solid 3px #5e7fca;
+    }
+    .Header_rog:active{
+      -webkit-transform: translateY(4px);
+      transform: translateY(4px);
+      box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+      border-bottom: none;
+    }
+  }
+}
+
+.Contents{
+  height: 100vh;
+  width:900px;
+  margin: 0 auto;
+  background-color: #fafafa;
+  .Contents__name{
+    text-align:center;
+    padding:60px 0 0 0;
+    .Contents__list{
+      font-size:20px;
+      .Contents_image{
+        border-radius:50%;
+      }
+      .Cont__name{
+        padding-top:30px;
+      }
+    }
+    .Contents__other{
+      padding: 50px 0;
+      .Contents__edit{
+        display: inline-block;
+        text-decoration: none;
+        color: #FFF;
+        width: 120px;
+        height: 120px;
+        line-height: 120px;
+        border-radius: 50%;
+        text-align: center;
+        overflow: hidden;
+        background-image: linear-gradient(45deg, #709dff 0%, #91fdb7 100%);
+        transition: .4s;
+        margin:0 15px;
+      }
+    }
+    .Contents__sns{
+      padding:30px 10px;
+      .btn-social-long-twitter{
+        color: #FFF;/*文字・アイコン色*/
+        border-radius: 7px;/*角丸に*/
+        display: inline-block;
+        height: 50px;/*高さ*/
+        width: 190px;/*幅*/
+        text-align: center;/*中身を中央寄せ*/
+        font-size: 25px;/*文字のサイズ*/
+        line-height: 50px;/*高さと合わせる*/
+        background: #1da1f3;
+        overflow: hidden;/*はみ出た部分を隠す*/
+        text-decoration:none;/*下線は消す*/
+        margin:0 10px;
+      }
+      .btn-social-long-insta{
+        color: #FFF;/*文字・アイコン色*/
+        border-radius: 7px;/*角丸に*/
+        position: relative;
+        display: inline-block;
+        height: 50px;/*高さ*/
+        width: 190px;/*幅*/
+        text-align: center;/*中身を中央寄せ*/
+        font-size: 25px;/*文字のサイズ*/
+        line-height: 50px;/*高さと合わせる*/
+        background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
+        overflow: hidden;/*はみ出た部分を隠す*/
+        text-decoration:none;/*下線は消す*/
+        margin:0 10px;
+      }
+    }
+  }
+}
+
+.Self-introduction{
+  border-bottom:solid 1px #eee;
+  height:200px;
+  background-color:#fafafa;
+}
+
+.Murmuring{
+  border-bottom:solid 1px #eee;
+  height:200px;
+  background-color: #fafafa;
+}
